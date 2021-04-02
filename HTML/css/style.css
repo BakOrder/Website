@@ -8697,7 +8697,7 @@ transform: translateY(-18px);
 .breathing-icon i {
 	color: #fff;
 	position: absolute;
-	top: 53%;
+	top: 50%;
 	left: 0;
 	right: 0;
 	transform: translateY(-50%);

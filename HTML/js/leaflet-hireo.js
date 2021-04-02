@@ -42,18 +42,18 @@ if(document.getElementById("map") !== null){
 	// Locations
 	// ----------------------------------------------- //
 	var locations = [
-		[ locationData('single-job-page.html','images/company-logo-01.png',"Hexagon",'Bilingual Event Support Specialist', 'verified'), 37.788181, -122.461270, 5, ''],
-		[ locationData('single-job-page.html','images/company-logo-05.png',"Laxo",'Competition Law Officer', 'not-verified'), 37.750812, -122.471934, 2, ''],
-		[ locationData('single-job-page.html','images/company-logo-02.png',"Coffee",'Barista and Cashier', 'not-verified'), 37.735609, -122.458201, 3, ''],
-		[ locationData('single-job-page.html','images/company-logo-03.png',"King",'Restaurant General Manager', 'verified'), 37.745382, -122.500773, 4, ''],
-		[ locationData('single-job-page.html','images/company-logo-05.png',"Skyist",'International Marketing Coordinator', 'not-verified'), 37.762963, -122.388506, 1, ''],
-		[ locationData('single-job-page.html','images/company-logo-05.png',"Podous",'Construction Labourers', 'not-verified'), 37.801745, -122.409085, 6, ''],
-		[ locationData('single-job-page.html','images/company-logo-04.png',"Mates",'Administrative Assistant', 'not-verified'), 37.730511, -122.383679, 7, ''],
-		[ locationData('single-job-page.html','images/company-logo-06.png',"Trideo",'Human Resources Consultant', 'not-verified'), 37.750457, -122.478779, 8, ''],
-		[ locationData('single-job-page.html','images/company-logo-06.png',"Trideo",'International Marketing Specialist', 'not-verified'), 37.732810, -122.415951, 9, ''],
-		[ locationData('single-job-page.html','images/company-logo-02.png',"Coffee",'Terrain Cafe Barista', 'not-verified'), 37.733625, -122.378872, 10, ''],
-		[ locationData('#','images/company-logo-05.png',"Kinte",'Skilled Labourer', 'not-verified'), 37.723578, -122.457493, 11, ''],
-		[ locationData('single-job-page.html','images/company-logo-05.png',"Alilia",'Healthcare Claims Advisor', 'not-verified'), 37.751543, -122.418354, 12, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-01.jpg',"Wood Milling",'Example Manufacturer', 'verified'), 43.273394, -79.814830, 5, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-02.jpg',"Metal Machining",'Example Manufacturer', 'not-verified'), 43.363231, -79.737076, 2, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-01.jpg',"Furniture",'BExample Manufacturer', 'not-verified'), 42.607877, -82.813760, 3, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-02.jpg',"Food and Beverage",'Example Manufacturer', 'verified'), 42.330117, -82.877226, 4, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-01.jpg',"Electronics",'Example Manufacturer', 'not-verified'), 37.762963, -122.388506, 1, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-02.jpg',"Fabrics",'CExample Manufacturer', 'not-verified'), 40.671732, -74.011710, 6, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-01.jpg',"Plastic Molding",'Example Manufacturer', 'not-verified'), 37.730511, -122.383679, 7, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-02.jpg',"Metal Molding",'Example Manufacturer', 'not-verified'), 34.707500, -86.653950, 8, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-01.jpg',"Air Bags",'Example Manufacturer', 'not-verified'), 37.732810, -122.415951, 9, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-02.jpg',"Wood Milling",'Example Manufacturer', 'not-verified'), 34.689864, -86.725381, 10, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-01.jpg',"Furniture",'Example Manufacturer', 'not-verified'), 53.582906, -113.288496, 11, ''],
+		[ locationData('single-freelancer-profile.html','images/user-avatar-big-02.jpg',"Automotive",'Example Manufacturer', 'not-verified'), 51.169722, -113.961995, 12, ''],
 	];
 
 

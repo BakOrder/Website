@@ -42,24 +42,25 @@
 						<li><a href="#" class="current">Home</a>
 
 						</li>
-						
-						<li><a href="#">For Businesses</a>
-							<ul class="dropdown-nav">
-								<li><a href="#">Find a Manufacturer</a>
-								<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
-							</ul>
 
 						<li><a href="#">For Manufactures</a>
 							<ul class="dropdown-nav">
-								<li><a href="pages-construction.html">Browse Posted Jobs</a>
+								<li><a href="jobs-list-layout-2.html">Browse Posted Jobs</a>
 
 								</li>
 
 							</ul>
 						</li>
 						
-
+						<li><a href="#">For Businesses</a>
+							<ul class="dropdown-nav">
+								<li><a href="#">Find a Manufacturer</a>
+								<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
+							</ul>
 						</li>
+
+						<li><a href="#">Businesses Dashboard</a>
+						<li><a href="#">Manufactures Dashboard</a>
 						</li>
 
 					</ul>
@@ -243,7 +244,8 @@
 						</div>
 						
 						<ul class="user-menu-small-nav">
-							<li><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i>Dashboard</a></li>
+							<li><a href="dashboard Businesses.html"><i class="icon-material-outline-dashboard"></i>Businesses Dashboard</a></li>
+							<li><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i>Manufactures Dashboard</a></li>
 							<li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
 						</ul>
 
@@ -268,6 +270,9 @@
 		</div>
 	</div>
 	<!-- Header / End -->
+</header>
+<div class="clearfix"></div>
+<!-- Header Container / End -->
 
 </header>
 <div class="clearfix"></div>
@@ -298,24 +303,33 @@
 					<div class="dashboard-nav-inner">
 
 						<ul data-submenu-title="Start">
-							<li><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
-							<li><a href="dashboard-messages.html"><i class="icon-material-outline-question-answer"></i> Messages <span class="nav-tag">2</span></a></li>
+							<li class="active"><a href="dashboard.html"><i class="icon-material-outline-dashboard"></i> Dashboard</a></li>
+							<li><a href="dashboard-messagesB.html"><i class="icon-material-outline-question-answer"></i> Messages <span class="nav-tag">2</span></a></li>
 							<li><a href="dashboard-bookmarks.html"><i class="icon-material-outline-star-border"></i> Bookmarks</a></li>
 							<li><a href="dashboard-reviews.html"><i class="icon-material-outline-rate-review"></i> Reviews</a></li>
 						</ul>
 						
 						<ul data-submenu-title="Organize and Manage">
-							<li><a href="#"><i class="icon-material-outline-business-center"></i>Jobs</a>
+							<li><a href="#"><i class="icon-material-outline-business-center"></i> Jobs</a>
 								<ul>
 									<li><a href="dashboard-manage-jobs.html">Manage Jobs <span class="nav-tag">3</span></a></li>
+									<li><a href="dashboard-manage-candidates.html">Manage Candidates</a></li>
 									<li><a href="dashboard-post-a-job.html">Post a Job</a></li>
+								</ul>	
+							</li>
+							<li><a href="#"><i class="icon-material-outline-assignment"></i> Tasks</a>
+								<ul>
+									<li><a href="dashboard-manage-tasks.html">Manage Tasks <span class="nav-tag">2</span></a></li>
+									<li><a href="dashboard-manage-bidders.html">Manage Bidders</a></li>
+									<li><a href="dashboard-my-active-bids.html">My Active Bids <span class="nav-tag">4</span></a></li>
+									<li><a href="dashboard-post-a-task.html">Post a Task</a></li>
 								</ul>	
 							</li>
 						</ul>
 
 						<ul data-submenu-title="Account">
 							<li><a href="dashboard-settings.html"><i class="icon-material-outline-settings"></i> Settings</a></li>
-							<li><a href="index.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
+							<li><a href="index-logged-out.html"><i class="icon-material-outline-power-settings-new"></i> Logout</a></li>
 						</ul>
 						
 					</div>
@@ -335,151 +349,237 @@
 			
 			<!-- Dashboard Headline -->
 			<div class="dashboard-headline">
-				<h3>Reviews</h3>
+				<h3>Howdy, Example Business!</h3>
+				<span>Welcome to your dashboard!</span>
 
 				<!-- Breadcrumbs -->
 				<nav id="breadcrumbs" class="dark">
 					<ul>
 						<li><a href="#">Home</a></li>
-						<li><a href="#">Dashboard</a></li>
-						<li>Reviews</li>
+						<li>Dashboard</li>
 					</ul>
 				</nav>
 			</div>
 	
+			<!-- Fun Facts Container -->
+			<div class="fun-facts-container">
+				<div class="fun-fact" data-fun-fact-color="#36bd78">
+					<div class="fun-fact-text">
+						<span>Open Offers</span>
+						<h4>9</h4>
+					</div>
+					<div class="fun-fact-icon"><i class="icon-material-outline-gavel"></i></div>
+				</div>
+				<div class="fun-fact" data-fun-fact-color="#b81b7f">
+					<div class="fun-fact-text">
+						<span>Closed Offers</span>
+						<h4>2</h4>
+					</div>
+					<div class="fun-fact-icon"><i class="icon-material-outline-lock"></i></div>
+				</div>
+				<div class="fun-fact" data-fun-fact-color="#efa80f">
+					<div class="fun-fact-text">
+						<span>Reviews Left</span>
+						<h4>28</h4>
+					</div>
+					<div class="fun-fact-icon"><i class="icon-material-outline-rate-review"></i></div>
+				</div>
+
+				<!-- Last one has to be hidden below 1600px, sorry :( -->
+			</div>
+			
+					<!-- Dashboard Box / End -->
+
+					<!-- Dashboard Box -->
+					<!-- If you want adjust height of two boxes 
+						 add to the lower box 'main-box-in-row' 
+						 and 'child-box-in-row' to the higher box -->
+					<div class="dashboard-box child-box-in-row"> 
+						<div class="headline">
+							<h3><i class="icon-material-outline-note-add"></i> Notes</h3>
+						</div>	
+
+						<div class="content with-padding">
+							<!-- Note -->
+							<div class="dashboard-note">
+								<p>Meeting with candidate at 3pm who applied for Bilingual Event Support Specialist</p>
+								<div class="note-footer">
+									<span class="note-priority high">High Priority</span>
+									<div class="note-buttons">
+										<a href="#" title="Edit" data-tippy-placement="top"><i class="icon-feather-edit"></i></a>
+										<a href="#" title="Remove" data-tippy-placement="top"><i class="icon-feather-trash-2"></i></a>
+									</div>
+								</div>
+							</div>
+							<!-- Note -->
+							<div class="dashboard-note">
+								<p>Extend premium plan for next month</p>
+								<div class="note-footer">
+									<span class="note-priority low">Low Priority</span>
+									<div class="note-buttons">
+										<a href="#" title="Edit" data-tippy-placement="top"><i class="icon-feather-edit"></i></a>
+										<a href="#" title="Remove" data-tippy-placement="top"><i class="icon-feather-trash-2"></i></a>
+									</div>
+								</div>
+							</div>
+							<!-- Note -->
+							<div class="dashboard-note">
+								<p>Send payment to David Peterson</p>
+								<div class="note-footer">
+									<span class="note-priority medium">Medium Priority</span>
+									<div class="note-buttons">
+										<a href="#" title="Edit" data-tippy-placement="top"><i class="icon-feather-edit"></i></a>
+										<a href="#" title="Remove" data-tippy-placement="top"><i class="icon-feather-trash-2"></i></a>
+									</div>
+								</div>
+							</div>
+						</div>
+							<div class="add-note-button">
+								<a href="#small-dialog" class="popup-with-zoom-anim button full-width button-sliding-icon">Add Note <i class="icon-material-outline-arrow-right-alt"></i></a>
+							</div>
+					</div>
+					<!-- Dashboard Box / End -->
+				</div>
+			</div>
+			<!-- Row / End -->
+
 			<!-- Row -->
 			<div class="row">
 
 				<!-- Dashboard Box -->
 				<div class="col-xl-6">
-					<div class="dashboard-box margin-top-0">
-
-						<!-- Headline -->
+					<div class="dashboard-box">
 						<div class="headline">
-							<h3><i class="icon-material-outline-business"></i> Rate Connected Manufactures</h3>
+							<h3><i class="icon-material-baseline-notifications-none"></i> Notifications</h3>
+							<button class="mark-as-read ripple-effect-dark" data-tippy-placement="left" title="Mark all as read">
+									<i class="icon-feather-check-square"></i>
+							</button>
 						</div>
-
 						<div class="content">
 							<ul class="dashboard-box-list">
 								<li>
-									<div class="boxed-list-item">
-										<!-- Content -->
-										<div class="item-content">
-											<h4>Example Manufacturer</h4>
-											<span class="company-not-rated margin-bottom-5">Not Rated</span>
-										</div>
+									<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+									<span class="notification-text">
+										<strong>Michael Shannah</strong> applied for a job <a href="#">Full Stack Software Engineer</a>
+									</span>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="#" class="button ripple-effect ico" title="Mark as read" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
 									</div>
-
-									<a href="#small-dialog-2" class="popup-with-zoom-anim button ripple-effect margin-top-5 margin-bottom-10"><i class="icon-material-outline-thumb-up"></i> Leave a Review</a>
 								</li>
 								<li>
-									<div class="boxed-list-item">
-										<!-- Content -->
-										<div class="item-content">
-											<h4>Example Manufacturer</h4>
-											<span class="company-not-rated margin-bottom-5">Not Rated</span>
-										</div>
+									<span class="notification-icon"><i class=" icon-material-outline-gavel"></i></span>
+									<span class="notification-text">
+										<strong>Gilber Allanis</strong> placed a bid on your <a href="#">iOS App Development</a> project
+									</span>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="#" class="button ripple-effect ico" title="Mark as read" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
 									</div>
-
-									<a href="#small-dialog-2" class="popup-with-zoom-anim button ripple-effect margin-top-5 margin-bottom-10"><i class="icon-material-outline-thumb-up"></i> Leave a Review</a>
 								</li>
 								<li>
-									<div class="boxed-list-item">
-										<!-- Content -->
-										<div class="item-content">
-											<h4>Example Manufacturer</h4>
-											<div class="item-details margin-top-10">
-												<div class="star-rating" data-rating="5.0"></div>
-												<div class="detail-item"><i class="icon-material-outline-date-range"></i> May 2019</div>
-											</div>
-											<div class="item-description">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-											</div>
-										</div>
+									<span class="notification-icon"><i class="icon-material-outline-autorenew"></i></span>
+									<span class="notification-text">
+										Your job listing <a href="#">Full Stack Software Engineer</a> is expiring
+									</span>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="#" class="button ripple-effect ico" title="Mark as read" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
 									</div>
-									<a href="#small-dialog-1" class="popup-with-zoom-anim button gray ripple-effect margin-top-5 margin-bottom-10"><i class="icon-feather-edit"></i> Edit Review</a>
 								</li>
 								<li>
-									<div class="boxed-list-item">
-										<!-- Content -->
-										<div class="item-content">
-											<h4>Example Manufacturer</h4>
-											<div class="item-details margin-top-10">
-												<div class="star-rating" data-rating="5.0"></div>
-												<div class="detail-item"><i class="icon-material-outline-date-range"></i> May 2019</div>
-											</div>
-											<div class="item-description">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-											</div>
-										</div>
+									<span class="notification-icon"><i class="icon-material-outline-group"></i></span>
+									<span class="notification-text">
+										<strong>Sindy Forrest</strong> applied for a job <a href="#">Full Stack Software Engineer</a>
+									</span>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="#" class="button ripple-effect ico" title="Mark as read" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
 									</div>
-									<a href="#small-dialog-1" class="popup-with-zoom-anim button gray ripple-effect margin-top-5 margin-bottom-10"><i class="icon-feather-edit"></i> Edit Review</a>
-								</li>
-
-							</ul>
-						</div>
-					</div>
-
-					<!-- Pagination -->
-					<div class="clearfix"></div>
-					<div class="pagination-container margin-top-40 margin-bottom-0">
-						<nav class="pagination">
-							<ul>
-								<li><a href="#" class="ripple-effect current-page">1</a></li>
-								<li><a href="#" class="ripple-effect">2</a></li>
-								<li><a href="#" class="ripple-effect">3</a></li>
-								<li class="pagination-arrow"><a href="#" class="ripple-effect"><i class="icon-material-outline-keyboard-arrow-right"></i></a></li>
-							</ul>
-						</nav>
-					</div>
-					<div class="clearfix"></div>
-					<!-- Pagination / End -->
-
-				</div>
-
-				<!-- Dashboard Box -->
-				<div class="col-xl-6">
-					<div class="dashboard-box margin-top-0">
-
-						<!-- Headline -->
-						<div class="headline">
-							<h3><i class="icon-material-outline-face"></i> Rate Businesses</h3>
-						</div>
-
-						<div class="content">
-							<ul class="dashboard-box-list">
-								<li>
-									<div class="boxed-list-item">
-										<!-- Content -->
-										<div class="item-content">
-											<h4>Example Business</h4>
-											<span class="company-not-rated margin-bottom-5">Not Rated</span>
-										</div>
-									</div>
-
-									<a href="#small-dialog-2" class="popup-with-zoom-anim button ripple-effect margin-top-5 margin-bottom-10"><i class="icon-material-outline-thumb-up"></i> Leave a Review</a>
 								</li>
 								<li>
-									<div class="boxed-list-item">
-										<!-- Content -->
-										<div class="item-content">
-											<h4>Example Business</h4>
-											<div class="item-details margin-top-10">
-												<div class="star-rating" data-rating="5.0"></div>
-												<div class="detail-item"><i class="icon-material-outline-date-range"></i> August 2019</div>
-											</div>
-											<div class="item-description">
-												<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
-											</div>
-										</div>
+									<span class="notification-icon"><i class="icon-material-outline-rate-review"></i></span>
+									<span class="notification-text">
+										<strong>David Peterson</strong> left you a <span class="star-rating no-stars" data-rating="5.0"></span> rating after finishing <a href="#">Logo Design</a> task
+									</span>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="#" class="button ripple-effect ico" title="Mark as read" data-tippy-placement="left"><i class="icon-feather-check-square"></i></a>
 									</div>
-									<a href="#small-dialog-1" class="popup-with-zoom-anim button gray ripple-effect margin-top-5 margin-bottom-10"><i class="icon-feather-edit"></i> Edit Review</a>
 								</li>
 							</ul>
 						</div>
 					</div>
 				</div>
 
+				<!-- Dashboard Box -->
+				<div class="col-xl-6">
+					<div class="dashboard-box">
+						<div class="headline">
+							<h3><i class="icon-material-outline-assignment"></i> Orders</h3>
+						</div>
+						<div class="content">
+							<ul class="dashboard-box-list">
+								<li>
+									<div class="invoice-list-item">
+									<strong>Professional Plan</strong>
+										<ul>
+											<li><span class="unpaid">Unpaid</span></li>
+											<li>Order: #326</li>
+											<li>Date: 12/08/2019</li>
+										</ul>
+									</div>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="pages-checkout-page.html" class="button">Finish Payment</a>
+									</div>
+								</li>
+								<li>
+									<div class="invoice-list-item">
+									<strong>Professional Plan</strong>
+										<ul>
+											<li><span class="paid">Paid</span></li>
+											<li>Order: #264</li>
+											<li>Date: 10/07/2019</li>
+										</ul>
+									</div>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="pages-invoice-template.html" class="button gray">View Invoice</a>
+									</div>
+								</li>
+								<li>
+									<div class="invoice-list-item">
+									<strong>Professional Plan</strong>
+										<ul>
+											<li><span class="paid">Paid</span></li>
+											<li>Order: #211</li>
+											<li>Date: 12/06/2019</li>
+										</ul>
+									</div>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="pages-invoice-template.html" class="button gray">View Invoice</a>
+									</div>
+								</li>
+								<li>
+									<div class="invoice-list-item">
+									<strong>Professional Plan</strong>
+										<ul>
+											<li><span class="paid">Paid</span></li>
+											<li>Order: #179</li>
+											<li>Date: 06/05/2019</li>
+										</ul>
+									</div>
+									<!-- Buttons -->
+									<div class="buttons-to-right">
+										<a href="pages-invoice-template.html" class="button gray">View Invoice</a>
+									</div>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
 
 			</div>
 			<!-- Row / End -->
@@ -488,12 +588,12 @@
 			<div class="dashboard-footer-spacer"></div>
 			<div class="small-footer margin-top-15">
 				<div class="small-footer-copyrights">
-					© 2021 <strong>BakOrder</strong>. All Rights Reserved.
+					© 2019 <strong>Hireo</strong>. All Rights Reserved.
 				</div>
 				<ul class="footer-social-links">
 					<li>
-						<a href="#" title="Instagram" data-tippy-placement="top">
-							<i class="icon-brand-instagram"></i>
+						<a href="#" title="Facebook" data-tippy-placement="top">
+							<i class="icon-brand-facebook-f"></i>
 						</a>
 					</li>
 					<li>
@@ -502,7 +602,9 @@
 						</a>
 					</li>
 					<li>
-						
+						<a href="#" title="Google Plus" data-tippy-placement="top">
+							<i class="icon-brand-google-plus-g"></i>
+						</a>
 					</li>
 					<li>
 						<a href="#" title="LinkedIn" data-tippy-placement="top">
@@ -523,6 +625,51 @@
 
 </div>
 <!-- Wrapper / End -->
+
+
+<!-- Apply for a job popup
+================================================== -->
+<div id="small-dialog" class="zoom-anim-dialog mfp-hide dialog-with-tabs">
+
+	<!--Tabs -->
+	<div class="sign-in-form">
+
+		<ul class="popup-tabs-nav">
+			<li><a href="#tab">Add Note</a></li>
+		</ul>
+
+		<div class="popup-tabs-container">
+
+			<!-- Tab -->
+			<div class="popup-tab-content" id="tab">
+				
+				<!-- Welcome Text -->
+				<div class="welcome-text">
+					<h3>Do Not Forget 😎</h3>
+				</div>
+					
+				<!-- Form -->
+				<form method="post" id="add-note">
+
+					<select class="selectpicker with-border default margin-bottom-20" data-size="7" title="Priority">
+						<option>Low Priority</option>
+						<option>Medium Priority</option>
+						<option>High Priority</option>
+					</select>
+
+					<textarea name="textarea" cols="10" placeholder="Note" class="with-border"></textarea>
+
+				</form>
+				
+				<!-- Button -->
+				<button class="button full-width button-sliding-icon ripple-effect" type="submit" form="add-note">Add Note <i class="icon-material-outline-arrow-right-alt"></i></button>
+
+			</div>
+
+		</div>
+	</div>
+</div>
+<!-- Apply for a job popup / End -->
 
 
 <!-- Scripts
@@ -632,30 +779,6 @@ $('#snackbar-user-status label').click(function() {
 });
 
 </script>
-
-
-<!-- Google Autocomplete -->
-<script>
-	function initAutocomplete() {
-		 var options = {
-		  types: ['(cities)'],
-		  // componentRestrictions: {country: "us"}
-		 };
-
-		 var input = document.getElementById('autocomplete-input');
-		 var autocomplete = new google.maps.places.Autocomplete(input, options);
-
-		if ($('.submit-field')[0]) {
-		    setTimeout(function(){ 
-		        $(".pac-container").prependTo("#autocomplete-container");
-		    }, 300);
-		}
-	}
-</script>
-
-<!-- Google API -->
-<script src="https://maps.googleapis.com/maps/api/js?key=&libraries=places&callback=initAutocomplete"></script>
-
 
 </body>
 </html>
